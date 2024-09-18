@@ -45,3 +45,9 @@ Congratulations! You've successfully completed the course and are now equipped w
 * A data loader helps you prepare and load data to train generative AI models. Using data loaders, you can output data in batches instead of one sample at a time.
 
 * Data loaders seamlessly integrate with the PyTorch training pipeline and simplify data augmentation and preprocessing.
+
+### Important Links
+
+* [**PyTorch**](https://pytorch.org/)
+
+* [**IBM NLP**](https://www.ibm.com/topics/natural-language-processing)
