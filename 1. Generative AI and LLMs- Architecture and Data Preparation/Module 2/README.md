@@ -21,14 +21,7 @@ Congratulations! You have completed this lesson. At this point in the course, yo
 
 | **Package/Method** | **Description** | **Code Example** |
 | ------------------ | --------------- | ---------------- |
-| NLTK | NLTK is a Python library used in natural language processing (NLP) for tasks such as tokenization and text processing. The code example shows how you can tokenize text using the NLTK word-based tokenizer. | ```py
-import nltk
-nltk.download("punkt")
-from nltk.tokenize import word_tokenize
-text = "Unicorns are real. I saw a unicorn yesterday. I couldn't see it today."
-token = word_tokenize(text)
-print(token)
-```
+| NLTK | NLTK is a Python library used in natural language processing (NLP) for tasks such as tokenization and text processing. The code example shows how you can tokenize text using the NLTK word-based tokenizer. | ```python import nltk; nltk.download("punkt"); from nltk.tokenize import word_tokenize; text = "Unicorns are real. I saw a unicorn yesterday. I couldn't see it today."; token = word_tokenize(text); print(token); ```
 
 
 
