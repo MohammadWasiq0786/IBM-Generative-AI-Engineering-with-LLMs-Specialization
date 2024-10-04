@@ -16,19 +16,3 @@ Congratulations! You have completed this lesson. At this point in the course, yo
 * PyTorch has a dedicated DataLoader class.
 * Data loaders seamlessly integrate with the PyTorch training pipeline and simplify data augmentation and preprocessing.
 * A collate function is employed in the context of data loading and batching in machine learning, particularly when dealing with variable-length data, such as sequences (e.g., text, time series, and sequences of events). Its primary purpose is to prepare and format individual data samples (examples) into batches that machine learning models can efficiently process.
-
-# Cheat Sheet: Generative AI Overview and Data Preparation
-
-| **Package/Method** | **Description** | **Code Example** |
-| ------------------ | --------------- | ---------------- |
-| NLTK | NLTK is a Python library used in natural language processing (NLP) for tasks such as tokenization and text processing. The code example shows how you can tokenize text using the NLTK word-based tokenizer. | ```python import nltk; nltk.download("punkt"); from nltk.tokenize import word_tokenize; text = "Unicorns are real. I saw a unicorn yesterday. I couldn't see it today."; token = word_tokenize(text); print(token); ```
-
-
-
-
-
-
-
-
-
-Generative AI and LLMs: Architecture and Data Preparation
