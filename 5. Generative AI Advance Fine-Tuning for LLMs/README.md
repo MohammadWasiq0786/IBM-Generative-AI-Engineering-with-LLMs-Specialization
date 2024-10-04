@@ -65,11 +65,11 @@ $$\pi_r(Y|X)= \frac{\pi_{ref} (Y|X) exp \big(\frac{1}{\beta} r(X, Y) \big)}{Z(X)
 
 * Subtracting the reward model for two samples eliminates the need for the partition function
 
-$$r(C. Y_{w})- x(X, Y_1)= \beta \,\, ln\Big(\frac{\pi_r (Y_w|X)}{\pi_{ref} (Y_w|X)} \Big)- \beta \,\, ln\Big(\frac{\pi_r (Y_l|X)}{\pi_{ref} (Y_l|X)} \Big) $$
+$$r(C. Y_{w})- x(X, Y_1)= \beta \quad ln\Big(\frac{\pi_r (Y_w|X)}{\pi_{ref} (Y_w|X)} \Big)- \beta \quad ln\Big(\frac{\pi_r (Y_l|X)}{\pi_{ref} (Y_l|X)} \Big) $$
 
 * Loss function:
 
-$$ - \sigma \Bigg( \beta \,\, ln\Big(\frac{\pi_r (Y_w|X)}{\pi_{ref} (Y_w|X)} \Big)- \beta \,\, ln\Big(\frac{\pi_r (Y_l|X)}{\pi_{ref} (Y_l|X)} \Big) \Bigg) $$
+$$ - \sigma \Bigg( \beta \quad ln\Big(\frac{\pi_r (Y_w|X)}{\pi_{ref} (Y_w|X)} \Big)- \beta \quad ln\Big(\frac{\pi_r (Y_l|X)}{\pi_{ref} (Y_l|X)} \Big) \Bigg) $$
 
 * The sample query questions may provide various random responses based on the probability distribution. 
 * The transformer model generates probabilities for different words using the softmax function. 
