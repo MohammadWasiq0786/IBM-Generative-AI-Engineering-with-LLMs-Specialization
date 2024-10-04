@@ -90,3 +90,13 @@ $$ - \sigma \Bigg( \beta \quad ln\Big(\frac{\pi_r (Y_w|X)}{\pi_{ref} (Y_w|X)} \B
 * Use a toy gradient ascent example using stochastic gradient ascent or SAG to maximize the objective function compared to a standard optimization problem with maximum likelihood.
 * A positive update occurs when a reward is positive, and a negative update occurs when a reward is negative.
 * To train the model, regularly evaluate the model using human feedback, use the moderate beta value, and increase the temperature.
+
+### Research Papers Links
+
+[**https://arxiv.org/pdf/1909.08593**](https://arxiv.org/pdf/1909.08593)
+
+[**https://arxiv.org/pdf/2310.00212**](https://arxiv.org/pdf/2310.00212)
+
+[**https://arxiv.org/pdf/2203.02155**](https://arxiv.org/pdf/2203.02155)
+
+[**https://arxiv.org/pdf/2305.18290**](https://arxiv.org/pdf/2305.18290)
