@@ -1,6 +1,6 @@
-![ibmlogo](https://www.digitalippo.com/wp-content/uploads/al_opt_content/IMAGE/www.digitalippo.com/wp-content/uploads/2022/12/ibm-logo-png-transparent-svg-vector-bie-supply-3.png)
+<img align="middle" src="https://www.digitalippo.com/wp-content/uploads/al_opt_content/IMAGE/www.digitalippo.com/wp-content/uploads/2022/12/ibm-logo-png-transparent-svg-vector-bie-supply-3.png" alt="ibmlogo" />
 
-# IBM Generative AI Engineering with LLMs Specialization
+<center><h1> IBM Generative AI Engineering with LLMs Specialization </h1></center>
 
 Welcome to the **Generative AI Engineering with LLMs** specialization! This advanced program is meticulously designed for junior to mid-level professionals who understand machine learning, neural networks, and programming in Python. Over the course of this specialization, you will look into the world of large language models (LLMs) and generative AI, equipping yourself with the knowledge and skills necessary to build cutting-edge Natural language processing or NLP-based applications using PyTorch.
 
