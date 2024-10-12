@@ -7,43 +7,33 @@ In the realm of natural language processing (NLP), document embedding refers to 
 IBM's watsonx.ai offers powerful embedding models tailored to meet the demands of modern NLP applications. You can find more information here. These models excel at creating high-quality embeddings that can capture the nuances of language across various contexts.
 
 ### Steps to embed documents using models from watsonx.ai
-
 1. **Preparation of data**:
-
-  * Ensure that your documents are clean and preprocessed. This involves tasks like removing special characters, normalizing text, and tokenization.
-  * Organize your documents into a format that is compatible with model's input requirements, typically as a list of strings or a data set.
+* Ensure that your documents are clean and preprocessed. This involves tasks like removing special characters, normalizing text, and tokenization.
+* Organize your documents into a format that is compatible with model's input requirements, typically as a list of strings or a data set.
 
 2. **Loading the watsonx embedding model**:
-
-  * Access embedding models through watsonx.ai's API or platform interface. You will learn how to do it in the corresponding hands-on lab.
-  * Load the pretrained embedding model, which is optimized for generating document embeddings.
+* Access embedding models through watsonx.ai's API or platform interface. You will learn how to do it in the corresponding hands-on lab.
+* Load the pretrained embedding model, which is optimized for generating document embeddings.
 
 3. **Embedding process**:
-
-  * Pass the prepared documents through the embedding model.
-  * The model will convert each document into a fixed-size numerical vector. These vectors are dense and capture the semantic meaning of the documents.
+* Pass the prepared documents through the embedding model.
+* The model will convert each document into a fixed-size numerical vector. These vectors are dense and capture the semantic meaning of the documents.
 
 4. **Postprocessing**:
-
-  * After obtaining the embeddings, consider normalizing the vectors if necessary.
-  * Store the embeddings in a suitable format, such as a database, for further use in downstream tasks.
+* After obtaining the embeddings, consider normalizing the vectors if necessary.
+* Store the embeddings in a suitable format, such as a database, for further use in downstream tasks.
 
 ### Applications of document embeddings
-
 1. **Document clustering**:
-
-  * Use the embeddings to group similar documents together. This is particularly useful in organizing large document collections or creating topic-based clusters.
+* Use the embeddings to group similar documents together. This is particularly useful in organizing large document collections or creating topic-based clusters.
 
 2. **Semantic search**:
-
-  * Implement a semantic search engine where queries are matched with documents based on their semantic similarity rather than just keyword matching.
+* Implement a semantic search engine where queries are matched with documents based on their semantic similarity rather than just keyword matching.
 
 3. **Text classification**:
-
-  * Utilize the embeddings as input features for classification models to categorize documents into predefined labels.
+* Utilize the embeddings as input features for classification models to categorize documents into predefined labels.
 
 ### Benefits of using watsonx's embedding model
-
 * **High accuracy**: watsonx's model is designed to produce embeddings that accurately reflect the semantic content of documents, leading to better performance in NLP tasks.
 * **Scalability**: The model can handle large data sets efficiently, making it suitable for enterprise-level applications.
 * **Versatility**: The embeddings can be applied to a variety of use cases, from search engines to recommendation systems.
